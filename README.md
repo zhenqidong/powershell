@@ -5,7 +5,9 @@
 
 ## miscellaneous
 - gcm=get-command | more | -commandtype | -syntax
+- gcm -name 'ssh*'
 - get-help  
+- -?
 - get-history
 - get-date
 - get-credentials  
