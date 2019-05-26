@@ -39,6 +39,7 @@
 
 ## file system
 - Get-ChildItem -Path C:\WINDOWS\System32 | Out-Host -Paging
+- Get-Childitem –Path C:\ -Include *HSG* -Recurse -ErrorAction SilentlyContinue
 - Get-Location | Get-Member  [gm=get-member]
 ``` 
 in order to refer to any members of PathInfo object returned by get-location, asssign it to a variable first
