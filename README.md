@@ -4,10 +4,11 @@
 - *double tabs*  
 
 ## miscellaneous
+- find-command
 - gcm=get-command | more | -commandtype | -syntax
 - gcm -name 'ssh*'
 - get-help  
-- -?
+- -? or /? [for biult-ins]
 - get-history
 - get-date
 - get-credentials  
