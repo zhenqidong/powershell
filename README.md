@@ -1,6 +1,15 @@
 # My PowerShell Commands
 ## Notes
 - *commands are case insensitive*
+- *double tabs*  
+
+## miscellaneous
+- get-command | more | -commandtype | -syntax
+- get-help  
+- get-history
+- get-date
+- get-credentials  
+- converto-json
 
 ## services
 - get-service   
@@ -17,3 +26,12 @@
 - check firewall rule  
   ```Get-NetFirewallRule -Name *ssh*```  
 - Next command go here
+
+## file system
+- Get-ChildItem -Path C:\WINDOWS\System32 | Out-Host -Paging
+
+## applications
+### ssh-client
+- ssh  
+- ssh-keygen -R  
+
