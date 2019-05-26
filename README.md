@@ -13,7 +13,10 @@
 - get-date
 - get-credentials  
 - converto-json
-
+- reload Path in ps
+  ```
+  $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+  ```
 ## piping
 - more | select | ? |
 
